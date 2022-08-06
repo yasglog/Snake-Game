@@ -56,6 +56,7 @@ function gameEngine() {
     board.appendChild(foodelement);
 }
 //main logic in the game
+//user which key is press
 window.requestAnimationFrame(main);
 window.addEventListener('keydown', e => {
  start.play();
